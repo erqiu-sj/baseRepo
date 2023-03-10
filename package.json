@@ -6,10 +6,10 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo run build",
-    "links": "turbo run links",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
+    "build": "turbo run build --color",
+    "links": "turbo run links --color",
+    "dev": "turbo run dev --color",
+    "lint": "turbo run lint --color",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "cz": "git add . && pnpm cz-customizable"
   },
