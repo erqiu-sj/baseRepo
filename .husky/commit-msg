@@ -1,4 +1,11 @@
+###
+# @Author: 邱狮杰
+# @Date: 2023-04-16 09:02:50
+# @LastEditTime: 2023-04-16 09:05:59
+# @Description:
+# @FilePath: /baseRepo/.husky/commit-msg
+###
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx --no -- commitlint --edit "$1"
+npx --no --commitlint --edit "$1"
