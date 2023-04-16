@@ -5,5 +5,3 @@
 # @Description:
 # @FilePath: /baseRepo/script/setup.sh
 ###
-
-pnpm add --global @commitlint/cli @commitlint/config-conventional
