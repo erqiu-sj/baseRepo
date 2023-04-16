@@ -12,14 +12,16 @@
     "lint": "turbo run lint --color",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "cz": "git add . && pnpm cz-customizable",
-    "build:api": "pnpm build && api-extractor run --local --verbose"
+    "build:api": "pnpm build && api-extractor run --local --verbose",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@vitest/ui": "^0.27.2",
     "jsdom": "^21.0.0",
     "prettier": "latest",
     "turbo": "latest",
-    "vitest": "^0.26.3"
+    "vitest": "^0.26.3",
+    "husky": "^8.0.0"
   },
   "engines": {
     "node": ">=14.0.0"
