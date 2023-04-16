@@ -1,9 +1,9 @@
 /*
  * @Author: 邱狮杰
  * @Date: 2023-04-16 09:12:02
- * @LastEditTime: 2023-04-16 09:13:45
+ * @LastEditTime: 2023-04-16 09:33:29
  * @Description:
- * @FilePath: /baseRepo/commitlint.config.ts
+ * @FilePath: /baseRepo/commitlint.config.js
  */
 module.exports = {
   extends: ['@commitlint/config-conventional'],

@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo "$1 < - this"
-npx --no-install commitlint --edit "$1"
+echo $1
+
+commitlint --edit ${1}
