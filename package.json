@@ -6,14 +6,18 @@
     "packages/*"
   ],
   "scripts": {
+    "build:api": "pnpm build && api-extractor run --local --verbose",
+    "prepare": "husky install",
+    "updateDep": "turbo run updateDep --color",
     "build": "turbo run build --color",
     "links": "turbo run links --color",
-    "dev": "turbo run dev --color",
+    "test": "turbo run test --color",
+    "dev": "turbo run dev --parallel",
     "lint": "turbo run lint --color",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "cz": "git add . && pnpm cz-customizable",
-    "build:api": "pnpm build && api-extractor run --local --verbose",
-    "prepare": "husky install"
+    "ci:publish": "pnpm publish -r",
+    "build:md": "turbo run build:md --color && api-documenter markdown"
   },
   "devDependencies": {
     "@vitest/ui": "^0.27.2",

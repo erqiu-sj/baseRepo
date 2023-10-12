@@ -4,7 +4,7 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**", ".next/**"]
+      "outputs": ["dist/**", ".next/**", "dts", "lib"]
     },
     "lint": {
       "outputs": []
@@ -12,6 +12,17 @@
     "dev": {
       "cache": false
     },
-    "links": {}
+    "test": {
+      "cache": false
+    },
+    "updateDep": {
+      "cache": false
+    },
+    "links": {
+      "cache": false
+    },
+    "build:md": {
+      "cache": false
+    }
   }
 }
