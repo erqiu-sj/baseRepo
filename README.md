@@ -1,7 +1,7 @@
 <!--
  * @Author: 邱狮杰
  * @Date: 2023-03-09 11:53:37
- * @LastEditTime: 2023-10-12 14:27:36
+ * @LastEditTime: 2023-10-31 09:52:25
  * @Description: 
  * @FilePath: /baseRepo/README.md
 -->
@@ -30,3 +30,12 @@
 # [包管理规范](/docs/packagingSpecification.md)
 
 # [注释生成文档](https://api-extractor.com/pages/overview/intro/)
+
+## Packages
+
+| Package (click for changelogs)                        | describe                               |
+| ----------------------------------------------------- | :------------------------------------- |
+
+## License
+
+[MIT](LICENSE)
